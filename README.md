@@ -1,4 +1,4 @@
-# Browser Search Shortcuts
+# Browser Keyword Searches
 [Keyword searching](https://kb.mozillazine.org/Using_keyword_searches) made easy with importable out-of-the-box html-files.
 
 The bookmark-importable html file features:
@@ -29,7 +29,7 @@ Same as the base html, but includes Dutch dictionaries.
 
 ## Installation
 ### Importing in Firefox
-1. Copy [the link to the html file from this repo](https://github.com/MaxPordon/browser-search-shortcuts/blob/main/_recommended-bookmarks.html)
+1. Copy [the link to the html file from this repo](https://github.com/MaxPordon/Browser-Keyword-Searches/blob/main/_recommended-bookmarks.html)
 2. Open Firefox
 3. Press `Ctrl + Shift + O` to open bookmarks (or instead click the hamburger (top right) -> *Bookmarks* -> *Manage bookmarks*)
 4. Press `Alt + I` to navigate to *Import and Backup*
