@@ -6,7 +6,7 @@ The bookmark-importable html file features:
 - multi-parameter search terms for e.g. Google Maps navigation: `navi startpoint endpoint`
 
 
-# What are Keyword Searches?
+## What are Keyword Searches?
 As explained in [this](https://kb.mozillazine.org/Using_keyword_searches) source:
 
 > What makes keywords very powerful is that if you add a “%s” at some place in your bookmark’s URL, it will be replaced by the words you type in after the keyword. (These are sometimes called “Quicksearches”.) For example, if we were to modify the bookmark mentioned above so that it pointed to “http://google.com/?q=%s”, we can type “g mozilla” into the Location Bar to arrive at “http://google.com/search?q=mozilla”. 
@@ -22,7 +22,10 @@ As explained in [this](https://kb.mozillazine.org/Using_keyword_searches) source
 6. Press `Ctrl + V` and `Enter` to paste the link to the Recommended Keyword Searches html file from this repo and to Open it
 
 ### Chrome
-Unfortunately, Chrome does not allow easy import of Keyword searches (or 'Site search' as Chrome calls it). They can be added manually, one-by-one though, as explained on [this Google Support page, scroll down to "How to fill out text fields"](https://support.google.com/chrome/answer/95426?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Csearch-engine-field%2Cshortcut-field%2Curl-with-s-in-place-of-query-field).
+Unfortunately, Chrome does not allow easy import of Keyword searches (or 'Site search' as Chrome calls it). However, they can be added manually, one-by-one, as explained on [this Google Support page, scroll down to "How to fill out text fields"](https://support.google.com/chrome/answer/95426?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Csearch-engine-field%2Cshortcut-field%2Curl-with-s-in-place-of-query-field).
 
 ### Microsoft Edge
 Unfortunately, the same is true for Edge as for Chrome.
+
+## Tips
+- When setting up a keyword for another website, remember than search filters, etc. are often saved in the URL. So set these filters to what you most often use, and _then_ set the keyword search, so that these filters are saved as well.
