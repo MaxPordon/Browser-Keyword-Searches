@@ -2,7 +2,7 @@
 [Keyword searching](https://kb.mozillazine.org/Using_keyword_searches) made easy with importable out-of-the-box html-files.
 
 The bookmark-importable html file features:
-- an extensive list of recommended, obvious Keyword Searches, such as `y` for YouTube (with the first letter as keyword)
+- an extensive list of recommended, obvious Keyword Searches, such as `y` for YouTube (with the first letter as keyword if possible)
 - multi-parameter search terms for e.g. Google Maps navigation: `navi startpoint endpoint`
 
 
