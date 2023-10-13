@@ -16,7 +16,7 @@ As explained in [this](https://kb.mozillazine.org/Using_keyword_searches) source
 ### Firefox
 1. Copy [the link to the html file from this repo](https://github.com/MaxPordon/browser-search-shortcuts/main/recommended-keyword-searches)
 2. Open Firefox
-3. Press `Ctrl + Shift + O` to open bookmarks, or instead click the hamburger (top right) -> *Bookmarks* -> *Manage bookmarks*
+3. Press `Ctrl + Shift + O` to open bookmarks (or instead click the hamburger (top right) -> *Bookmarks* -> *Manage bookmarks*)
 4. Press `Alt + I` to navigate to *Import and Backup*
 5. Press `I` to select *Import Bookmarks from HTML...*
 6. Press `Ctrl + V` and `Enter` to paste the link to the Recommended Keyword Searches html file from this repo and to Open it
