@@ -29,6 +29,12 @@ Unfortunately, at least to the author's knowledge, currently other browser don't
 The multiparameter keyword searches can accept both **comma**-separated and **space**-separated search parameters. Examples withthe included `navi` Keyword for navigation using Google Maps:
 - `navi <starting point>, <end point>`: recognizes `<starting point>` as the first parameter i.e. the starting point, and `<end point>` as the endpoint
 - `navi <startingpoint> <endpoint>`: recognizes `<startingpoint>` as the first parameter, and `<endpoint>` as the endpoint
+### Navigate Google Maps
+Apart from the `navi` keyword, also the following keywords exist for their respective transportation method:
+- `naviw`: walking
+- `navib`: bicycling
+- `navip`: public transport
+- `navic`: car
 ### Dictionary searches
 Keywords follow format `<origin><target>`, e.g. English-French -> `ef`.
 
