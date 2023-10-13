@@ -1,7 +1,7 @@
 # Browser Search Shortcuts
 [Keyword searching](https://kb.mozillazine.org/Using_keyword_searches) made easy with importable out-of-the-box html-files.
 
-The bookmark-importable html features:
+The bookmark-importable html file features:
 - an extensive list of recommended, obvious Keyword Searches, such as `y` for YouTube
 - multi-parameter search terms for e.g. Google Maps navigation: `navi startpoint endpoint`
 
