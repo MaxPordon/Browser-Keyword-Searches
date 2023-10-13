@@ -13,7 +13,7 @@ As explained in [this](https://kb.mozillazine.org/Using_keyword_searches) source
 
 
 ## Installation
-### Firefox
+### Importing in Firefox
 1. Copy [the link to the html file from this repo](https://github.com/MaxPordon/browser-search-shortcuts/main/recommended-keyword-searches)
 2. Open Firefox
 3. Press `Ctrl + Shift + O` to open bookmarks (or instead click the hamburger (top right) -> *Bookmarks* -> *Manage bookmarks*)
@@ -21,11 +21,16 @@ As explained in [this](https://kb.mozillazine.org/Using_keyword_searches) source
 5. Press `I` to select *Import Bookmarks from HTML...*
 6. Press `Ctrl + V` and `Enter` to paste the link to the Recommended Keyword Searches html file from this repo and to Open it
 
-### Chrome
+### Importing in Chrome
 Unfortunately, Chrome does not allow easy import of Keyword searches (or 'Site search' as Chrome calls it). However, they can be added manually, one-by-one, as explained on [this Google Support page, scroll down to "How to fill out text fields"](https://support.google.com/chrome/answer/95426?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Csearch-engine-field%2Cshortcut-field%2Curl-with-s-in-place-of-query-field).
 
-### Microsoft Edge
+### Importing in Microsoft Edge
 Unfortunately, the same is true for Edge as for Chrome.
 
+## Multiparameter keyword searches explained
+The multiparameter keyword searches can accept both **comma**-separated and **space**-separated search parameters. Examples withthe included `navi` Keyword for navigation using Google Maps:
+- `navi <starting point>, <end point>`: recognizes `<starting point>` as the first parameter i.e. the starting point, and `<end point>` as the endpoint
+- `navi <startingpoint> <endpoint>`: recognizes `<startingpoint>` as the first parameter, and `<endpoint>` as the endpoint
+
 ## Tips
-- When setting up a keyword for another website, remember than search filters, etc. are often saved in the URL. So set these filters to what you most often use, and _then_ set the keyword search, so that these filters are saved as well.
+- When setting up a keyword for a(nother) website, remember than search filters, etc. are often saved in the URL. So set these filters to what you most often use, and _then_ set the keyword search, so that these filters are saved as well.
