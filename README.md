@@ -2,7 +2,7 @@
 [Keyword searching](https://kb.mozillazine.org/Using_keyword_searches) made easy with importable out-of-the-box html-files.
 
 The bookmark-importable html file features:
-- an extensive list of recommended, obvious Keyword Searches, such as `y` for YouTube
+- an extensive list of recommended, obvious Keyword Searches, such as `y` for YouTube (with the first letter as keyword)
 - multi-parameter search terms for e.g. Google Maps navigation: `navi startpoint endpoint`
 
 
@@ -21,16 +21,17 @@ As explained in [this](https://kb.mozillazine.org/Using_keyword_searches) source
 5. Press `I` to select *Import Bookmarks from HTML...*
 6. Press `Ctrl + V` and `Enter` to paste the link to the Recommended Keyword Searches html file from this repo and to Open it
 
-### Importing in Chrome
-Unfortunately, Chrome does not allow easy import of Keyword searches (or 'Site search' as Chrome calls it). However, they can be added manually, one-by-one, as explained on [this Google Support page, scroll down to "How to fill out text fields"](https://support.google.com/chrome/answer/95426?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Csearch-engine-field%2Cshortcut-field%2Curl-with-s-in-place-of-query-field).
+### Importing in other browsers
+Unfortunately, at least to the author's knowledge, currently other browser don't allow html-importation of keyword searches (or their equivalent). However, manual, one-by-one adding is possible in [Chrome (scroll down to "How to fill out text fields")](https://support.google.com/chrome/answer/95426?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Csearch-engine-field%2Cshortcut-field%2Curl-with-s-in-place-of-query-field).
 
-### Importing in Microsoft Edge
-Unfortunately, the same is true for Edge as for Chrome.
-
-## Multiparameter keyword searches explained
+## Reasoning
+### Multiparameter keyword searches explained
 The multiparameter keyword searches can accept both **comma**-separated and **space**-separated search parameters. Examples withthe included `navi` Keyword for navigation using Google Maps:
 - `navi <starting point>, <end point>`: recognizes `<starting point>` as the first parameter i.e. the starting point, and `<end point>` as the endpoint
 - `navi <startingpoint> <endpoint>`: recognizes `<startingpoint>` as the first parameter, and `<endpoint>` as the endpoint
+### Dictionary searches
+Keywords follow format `<origin><target>`, e.g. English-French -> `ef`.
+
 
 ## Tips
 - When setting up a keyword for a(nother) website, remember than search filters, etc. are often saved in the URL. So set these filters to what you most often use, and _then_ set the keyword search, so that these filters are saved as well.
