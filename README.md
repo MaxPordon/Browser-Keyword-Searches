@@ -37,6 +37,8 @@ Apart from the `navi` keyword, also the following keywords exist for their respe
 - `navic`: car
 ### Dictionary searches
 Keywords follow format `<origin><target>`, e.g. English-French -> `ef`.
+### for-dutch
+Same as the base html, but includes Dutch dictionaries.
 
 
 ## Tips
