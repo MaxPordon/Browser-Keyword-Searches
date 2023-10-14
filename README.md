@@ -2,8 +2,8 @@
 [Keyword searching](https://kb.mozillazine.org/Using_keyword_searches) made easy with importable keyword search-enabled bookmarks.
 
 The bookmark-importable html file features:
-- an extensive list of recommended, obvious Keyword Searches, such as `y` for YouTube (with the first letter as keyword if possible). (Recommendations welcomed!)
 - multi-parameter search terms for e.g. Google Maps navigation: `navi startpoint endpoint`
+- a number of recommended, obvious Keyword Searches, such as `y` for YouTube (with the first letter as keyword if possible). (Recommendations welcome!)
 
 
 ## What are Keyword Searches?
