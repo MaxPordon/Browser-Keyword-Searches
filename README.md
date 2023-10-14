@@ -12,20 +12,20 @@ As explained in [this](https://kb.mozillazine.org/Using_keyword_searches) source
 > What makes keywords very powerful is that if you add a “%s” at some place in your bookmark’s URL, it will be replaced by the words you type in after the keyword. (These are sometimes called “Quicksearches”.) For example, if we were to modify the bookmark mentioned above so that it pointed to “http://google.com/?q=%s”, we can type “g mozilla” into the Location Bar to arrive at “http://google.com/search?q=mozilla”. 
 
 ## Reasoning
-### Multiparameter keyword searches explained
+### Multiparameter Keyword Searches
 The multiparameter keyword searches can accept both **comma**-separated and **space**-separated search parameters. Examples withthe included `navi` Keyword for navigation using Google Maps:
 - `navi <starting point>, <end point>`: recognizes `<starting point>` as the first parameter i.e. the starting point, and `<end point>` as the endpoint
 - `navi <startingpoint> <endpoint>`: recognizes `<startingpoint>` as the first parameter, and `<endpoint>` as the endpoint
-### Navigate Google Maps
+### Navigation in Google Maps
 Apart from the `navi` keyword, also the following keywords exist for their respective transportation method:
 - `naviw`: walking
 - `navib`: bicycling
 - `navip`: public transport
 - `navic`: car
-### Dictionary searches
+### Dictionary Searches
 Keywords follow format `<origin><target>`, e.g. English-French -> `ef`.
-### for-dutch
-Same as the base html, but includes Dutch dictionaries.
+### Dutch version: recommended-bookmarks-for-dutch.html
+Includes Dutch dictionaries, for the rest the same as the base html.
 
 ## Installation
 ### Importing in Firefox
