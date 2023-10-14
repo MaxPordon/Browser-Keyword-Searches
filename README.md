@@ -1,5 +1,5 @@
 # Browser Keyword Searches
-[Keyword searching](https://kb.mozillazine.org/Using_keyword_searches) made easy with importable out-of-the-box html-files.
+[Keyword searching](https://kb.mozillazine.org/Using_keyword_searches) made easy with importable keyword search-enabled bookmarks.
 
 The bookmark-importable html file features:
 - an extensive list of recommended, obvious Keyword Searches, such as `y` for YouTube (with the first letter as keyword if possible). (Recommendations welcomed!)
@@ -35,6 +35,7 @@ Same as the base html, but includes Dutch dictionaries.
 4. Press `Alt + I` to navigate to *Import and Backup*
 5. Press `I` to select *Import Bookmarks from HTML...*
 6. Press `Ctrl + V` and `Enter` to paste the link to the Recommended Keyword Searches html file from this repo and to Open it
+7. Manually enter the keywords that you would like to assign to each bookmark. Suggestions are given in the bookmark title between the grave accents (\`)!
 
 ### Importing in other browsers
 Unfortunately, at least to the author's knowledge, currently other browser don't allow html-importation of keyword searches (or their equivalent). However, manual, one-by-one adding is possible in [Chrome (scroll down to "How to fill out text fields")](https://support.google.com/chrome/answer/95426?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Csearch-engine-field%2Cshortcut-field%2Curl-with-s-in-place-of-query-field).
