@@ -2,7 +2,7 @@
 [Keyword searching](https://kb.mozillazine.org/Using_keyword_searches) made easy with importable keyword search-enabled bookmarks.
 
 The bookmark-importable html file features:
-- multi-parameter search terms for e.g. Google Maps navigation: `navi startpoint endpoint`
+- multi-parameter search terms for e.g. Google Maps navigation: `navi <startpoint> <endpoint>`
 - a number of recommended, obvious Keyword Searches, such as `y` for YouTube (with the first letter as keyword if possible). (Recommendations welcome!)
 
 
@@ -14,8 +14,8 @@ As explained in [this](https://kb.mozillazine.org/Using_keyword_searches) source
 ## Reasoning
 ### Multiparameter Keyword Searches
 The multiparameter keyword searches can accept both **comma**-separated and **space**-separated search parameters. Examples withthe included `navi` Keyword for navigation using Google Maps:
-- `navi <starting point>, <end point>`: recognizes `<starting point>` as the first parameter i.e. the starting point, and `<end point>` as the endpoint
-- `navi <startingpoint> <endpoint>`: recognizes `<startingpoint>` as the first parameter, and `<endpoint>` as the endpoint
+- `navi <startpoint>, <endpoint>`: recognizes `<startpoint>` as the first parameter i.e. the starting point, and `<endpoint>` as the endpoint
+- `navi <startpoint> <endpoint>`: recognizes `<startpoint>` as the first parameter, and `<endpoint>` as the endpoint
 ### Navigation in Google Maps
 Apart from the `navi` keyword, also the following keywords exist for their respective transportation method:
 - `naviw`: walking
